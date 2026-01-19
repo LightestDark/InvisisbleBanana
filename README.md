@@ -14,3 +14,12 @@ V1.2 - Almost done with the decoder, I had issues changing the Nan into byte for
 V1.3 - Made it so that the encoder would ask for a jpeg to be used in the code, regardless of whethere it was a banana or not and then make the .bin file be saved in its own folder just for easy access, i then also provided the same file directory to the decoder, which saved it in the same file so you could get both with very easy access
 
 V1.4 - FINAL - Since my NaNs are quiet IEEE-754 doubles with exponent all 1s and a 48-bit payload directly copied from my file into the fraction field, it looked like a jumbles mess, so i made the computer apply a converter of each error into either an n or an a in an array, this made the output code look like anananananananan over and over WHICH WAS EXACTLY LIKE HOW THE WORD BANANA IS! This should be my final entry im pretty happy with it!
+
+
+
+<img width="422" height="455" alt="image" src="https://github.com/user-attachments/assets/2a5ab1cb-e5b9-4ce1-a192-3c40d93b9169" />
+
+
+
+Image of the hundreds of ananas
+
