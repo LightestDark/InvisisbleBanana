@@ -8,3 +8,7 @@ Made the encoder, it takes each separate byte then converts it into a Nan error
 
 
 V1.1 - Changed the encoder, the initial way to convert it into Nan errors corrupted the data so i changed the picture’s raw bytes into the payload bits of IEEE-754 NaN floating-point values, which keep the data nicely
+
+V1.2 - Almost done with the decoder, I had issues changing the Nan into byte form until i realised that i was fomrattign the wrong part of the Nan, the middle 6 didigts form the byte which could then piece together 
+
+V1.3 - Made it so that the encoder would ask for a jpeg to be used in the code, regardless of whethere it was a banana or not and then make the .bin file be saved in its own folder just for easy access, i then also provided the same file directory to the decoder, which saved it in the same file so you could get both with very easy access
