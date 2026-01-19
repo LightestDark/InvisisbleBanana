@@ -49,3 +49,4 @@ try:
         print("Open manually:", restored_file)
 except Exception:
     print("Could not auto-open. Open manually:", restored_file)
+
