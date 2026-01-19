@@ -37,4 +37,4 @@ with open(text_file, "w") as f:
 
 shutil.copy(file_path, folder)
 
-print(f"Rebanana done! Saved text file and original into {folder}")
+print(f"Rebananfication done! Saved text file and original into {folder}")
