@@ -16,11 +16,21 @@ Made the encoder, it takes each separate byte then converts it into a Nan error
 
 V1.1 - Changed the encoder, the initial way to convert it into Nan errors corrupted the data so i changed the picture’s raw bytes into the payload bits of IEEE-754 NaN floating-point values, which keep the data nicely
 
+
+
+
 V1.2 - Almost done with the decoder, I had issues changing the Nan into byte form until i realised that i was fomrattign the wrong part of the Nan, the middle 6 didigts form the byte which could then piece together 
 
 V1.3 - Made it so that the encoder would ask for a jpeg to be used in the code, regardless of whethere it was a banana or not and then make the .bin file be saved in its own folder just for easy access, i then also provided the same file directory to the decoder, which saved it in the same file so you could get both with very easy access
 
 V1.4 - FINAL - Since my NaNs are quiet IEEE-754 doubles with exponent all 1s and a 48-bit payload directly copied from my file into the fraction field, it looked like a jumbles mess, so i made the computer apply a converter of each error into either an n or an a in an array, this made the output code look like anananananananan over and over WHICH WAS EXACTLY LIKE HOW THE WORD BANANA IS! This should be my final entry im pretty happy with it!
+
+V1.5 - Kept getting a formatting error when loading in larger images, so changed the code to allow for ANY sized image and retains the same lossless image!
+
+
+
+
+<img width="319" height="440" alt="image" src="https://github.com/user-attachments/assets/c52895a9-aecf-4abe-94d9-8f6b7cb8f556" />
 
 
 
