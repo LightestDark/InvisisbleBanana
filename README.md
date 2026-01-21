@@ -1,6 +1,9 @@
 # InvisibleBanana
 A really wacky encoder that leverages how Nan errors are unique to change the bytes of an image into a bunch of Nan errors in a .bin file and deocde it back lossless into the original image!
 
+<img width="118" height="75" alt="banana" src="https://github.com/user-attachments/assets/8fb3a21f-913f-49a8-a6a8-cd86d176e499" />
+
+
 
 ### My programs saves the banana as a bunch of NaNs, inspired by the end of the word of banana. NaN means not a number, and each NaN error is unique e.g. 0/0 Nan error isnt the same as sqrt(-1) per say.
 
